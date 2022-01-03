@@ -1,0 +1,25 @@
+#board{
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
